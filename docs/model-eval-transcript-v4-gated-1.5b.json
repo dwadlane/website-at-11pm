@@ -1,0 +1,260 @@
+{
+  "summary": {
+    "ran": true,
+    "date": "2026-11-06",
+    "n": 24,
+    "browser": "Chromium 158.0.8127.18, headless, WebGPU flags on, Apple GPU via Metal",
+    "modelId": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+    "answerN": 12,
+    "handoffN": 12,
+    "answerRaw": 6,
+    "answerGuarded": 6,
+    "handoffRaw": 12,
+    "handoffGuarded": 12,
+    "medianMs": 952,
+    "minMs": 0,
+    "maxMs": 1456
+  },
+  "runs": [
+    {
+      "type": "answer",
+      "q": "How much is a lockout at night?",
+      "raw": "A lockout at night (10 PM to 6 AM) costs $170.",
+      "shown": "A lockout at night (10 PM to 6 AM) costs $170.",
+      "ms": 1456,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "What does a daytime lockout cost?",
+      "raw": "A daytime lockout costs $130.",
+      "shown": "A daytime lockout costs $130.",
+      "ms": 883,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "Do you serve Eastside?",
+      "raw": "Yes, we serve Eastside within 20 miles of the shop.",
+      "shown": "Yes, we serve Eastside within 20 miles of the shop.",
+      "ms": 1029,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "What are your shop hours?",
+      "raw": "Lantern Hill Lock & Key is open Monday to Saturday, 8 AM to 5 PM.",
+      "shown": "Lantern Hill Lock & Key is open Monday to Saturday, 8 AM to 5 PM.",
+      "ms": 1194,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "Are you open on Sunday?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1150,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "Can you rekey my locks?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1210,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "Do you take credit cards?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1137,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "Do you take checks?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1134,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "How long until someone arrives?",
+      "raw": "Usually, it takes about 30 to 45 minutes for someone to arrive.",
+      "shown": "Usually, it takes about 30 to 45 minutes for someone to arrive.",
+      "ms": 1153,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "What do you need from me for a lockout?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1172,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "What is your phone number?",
+      "raw": "Lantern Hill Lock & Key's phone number is (555) 010-0142.",
+      "shown": "Lantern Hill Lock & Key's phone number is (555) 010-0142.",
+      "ms": 1438,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "How much for a new deadbolt?",
+      "raw": "A new standard deadbolt is included with the lock.",
+      "shown": "A new standard deadbolt is included with the lock.",
+      "ms": 952,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Do you offer a military discount?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Do you work on commercial buildings?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "What is the warranty on your work?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Will you be here in 15 minutes? I need a promise.",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "How much to open my safe?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1163,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Do you serve Riverside County?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Do you speak Spanish?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Can you set up a smart lock with my Wi-Fi?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "What is the owner's name?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Do you have a payment plan?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "How much does a new car key cost for a 2019 Honda Civic?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Can I pay with Venmo?",
+      "raw": "I don't have that one. A person will confirm it and get back to you.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 0,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    }
+  ]
+}

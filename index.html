@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Website At 11 PM | Demo with sample data | Gaps2Gains</title>
+<meta name="description" content="A language model that runs inside your browser answers a customer at 11 PM, using only the business facts you give it. Demo with sample data.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Website At 11 PM | Demo with sample data | Gaps2Gains">
+<meta property="og:description" content="A language model that runs inside your browser answers a customer at 11 PM, using only the business facts you give it. Demo with sample data.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23159a5b'/%3E%3Ctext x='16' y='22' font-size='17' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='white'%3EG2%3C/text%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem("g2-theme");if(t)document.documentElement.dataset.theme=t;var s=localStorage.getItem("g2-font");if(s)document.documentElement.style.fontSize=s+"px"}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#demo">Skip to the demo</a>
+<header class="top">
+  <div class="wrap bar">
+    <span class="brand">Gaps2Gains</span>
+    <div class="tools">
+      <button class="tool" id="fontDown" aria-label="Smaller text">A-</button>
+      <button class="tool" id="fontUp" aria-label="Larger text">A+</button>
+      <button class="tool" id="theme" aria-label="Switch light and dark theme">Theme</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="wrap hero">
+  <p class="eyebrow"><span class="pill">Demo with sample data</span> A fictional locksmith. Nothing here is a real business.</p>
+  <h1>Your Website At <span class="headline-gradient">11 PM</span></h1>
+  <p class="lede">A customer texts your website after you have closed. Here, they get a first answer in seconds instead of waiting for morning. A small language model runs inside the visitor's own browser and answers from the facts you give it. No server. No per-message bill.</p>
+</section>
+
+<section class="wrap demo" id="demo">
+  <div class="card facts">
+    <h2>1. Your business facts</h2>
+    <p class="hint">Edit or paste your own. The assistant may only use what is written here.</p>
+    <label class="sr" for="facts">Business facts</label>
+    <textarea id="facts" spellcheck="false"></textarea>
+    <div class="row">
+      <button class="ghost" id="resetFacts">Reset to the sample</button>
+      <span class="hint" id="factsNote">Stays in this browser. Nothing is uploaded.</span>
+    </div>
+  </div>
+
+  <div class="card chatcard">
+    <div class="chathead">
+      <h2>2. Chat as a customer</h2>
+      <span class="clock" title="This time is simulated. It is not your clock.">11:07 PM <small>simulated time</small></span>
+    </div>
+    <div class="modebar" id="modebar" role="status"></div>
+    <div class="log" id="log" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+    <form id="form" autocomplete="off">
+      <label class="sr" for="q">Message</label>
+      <input id="q" placeholder="Type like a customer would" maxlength="300">
+      <button class="go" type="submit" id="send">Send</button>
+    </form>
+    <div class="timer" id="timer" aria-live="off"><span id="timerLabel">Reply timer</span> <b id="timerVal">not run yet</b></div>
+  </div>
+</section>
+
+<section class="wrap load card" id="loadCard">
+  <div>
+    <h2>Turn on the AI model</h2>
+    <p id="loadText"></p>
+    <div class="bar-track" id="track" hidden><div class="bar-fill" id="fill"></div></div>
+    <p class="hint" id="loadStatus" role="status"></p>
+  </div>
+  <button class="go" id="loadBtn">Load the model</button>
+</section>
+
+<section class="wrap two">
+  <div class="card warn">
+    <h2>Small models can be wrong</h2>
+    <p>This model is tiny on purpose, so it fits in a browser. It can misread a question, miss a fact that is plainly written, or sound sure when it is not. Two plain-rule checks (no AI) back it up: one skips the model and hands off when nothing in the facts matches the question, and one swaps in a hand-off line when a reply uses a number that is not in the facts. The scripted test results below show how often it still slips. Treat this as a first-line answer, not a replacement for a person.</p>
+  </div>
+  <div class="card" id="results"></div>
+</section>
+
+<section class="wrap how">
+  <h2>What is running</h2>
+  <ul class="plain">
+    <li><b>Model:</b> Qwen2.5 1.5B Instruct (Apache 2.0), 4-bit, about 880 MB, run through the open source <a href="https://github.com/mlc-ai/web-llm" rel="noopener">web-llm</a> library (Apache 2.0).</li>
+    <li><b>Where it comes from:</b> model files from Hugging Face and the compiled GPU program from GitHub, both public with no account. Your browser keeps them after the first load.</li>
+    <li><b>Instant mode:</b> without WebGPU, or before you load the model, a simple keyword lookup answers instead. It is not AI and it is labeled that way.</li>
+  </ul>
+</section>
+
+<section class="wrap cta card">
+  <div>
+    <h2>Want every after-hours inquiry answered?</h2>
+    <p>The 14-Day Business Diagnosis looks at where calls and messages go unanswered in your business and shows you the first gap to close.</p>
+  </div>
+  <a class="go link" href="https://gaps2gains.com/diagnosis" rel="noopener">See The 14-Day Business Diagnosis</a>
+</section>
+</main>
+<footer class="wrap foot">
+  <p>Demo with sample data. Lantern Hill Lock &amp; Key is a made-up business. The clock shows a simulated 11:07 PM. Reply times shown above are measured in your browser, on your device. Built by Gaps2Gains on top of <a href="https://github.com/mlc-ai/web-llm" rel="noopener">web-llm</a>.</p>
+</footer>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

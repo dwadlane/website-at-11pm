@@ -1,0 +1,36 @@
+{
+  "model": {
+    "ran": true,
+    "date": "2026-11-06",
+    "n": 24,
+    "browser": "Chromium 158.0.8127.18, headless, WebGPU flags on, Apple GPU via Metal",
+    "modelId": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+    "answerN": 12,
+    "handoffN": 12,
+    "answerRaw": 10,
+    "answerGuarded": 10,
+    "handoffRaw": 11,
+    "handoffGuarded": 11,
+    "modelRuns": 13,
+    "medianMs": 1720,
+    "minMs": 1285,
+    "maxMs": 2555
+  },
+  "instant": {
+    "ran": true,
+    "date": "2026-11-06",
+    "answer": 12,
+    "answerN": 12,
+    "handoff": 11,
+    "handoffN": 12
+  },
+  "instantHeldout": {
+    "ran": true,
+    "date": "2026-11-06",
+    "answer": 20,
+    "answerN": 24,
+    "handoff": 16,
+    "handoffN": 16,
+    "note": "Instant mode is the keyword lookup only; the AI model was not scored on these."
+  }
+}

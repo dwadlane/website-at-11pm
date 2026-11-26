@@ -1,0 +1,260 @@
+{
+  "summary": {
+    "ran": true,
+    "date": "2026-11-06",
+    "n": 24,
+    "browser": "Chromium 158.0.8127.18, headless, WebGPU flags on, Apple GPU via Metal",
+    "modelId": "Qwen2.5-0.5B-Instruct-q4f16_1-MLC",
+    "answerN": 12,
+    "handoffN": 12,
+    "answerRaw": 9,
+    "answerGuarded": 7,
+    "handoffRaw": 0,
+    "handoffGuarded": 0,
+    "medianMs": 505,
+    "minMs": 330,
+    "maxMs": 2703
+  },
+  "runs": [
+    {
+      "type": "answer",
+      "q": "How much is a lockout at night?",
+      "raw": "A lockout at night costs $170.",
+      "shown": "A lockout at night costs $170.",
+      "ms": 2703,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "What does a daytime lockout cost?",
+      "raw": "A daytime lockout costs $130.",
+      "shown": "A daytime lockout costs $130.",
+      "ms": 457,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "Do you serve Eastside?",
+      "raw": "Yes, we serve Eastside.",
+      "shown": "Yes, we serve Eastside.",
+      "ms": 345,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "What are your shop hours?",
+      "raw": "Our shop operates 24/7, with emergency lockouts available any time during the day and night. We are open from Monday to Saturday, with closing times on Sunday. Our service area includes Millhaven, Brookfield, and Eastside within a 20-mile radius. For lockouts, we typically arrive around 30-45 minutes after opening for an estimate; payment is by card or cash without checks.",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1479,
+      "replaced": true,
+      "okRaw": true,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "Are you open on Sunday?",
+      "raw": "Yes, we are open on Sundays.",
+      "shown": "Yes, we are open on Sundays.",
+      "ms": 330,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "Can you rekey my locks?",
+      "raw": "Yes, we can rekey your locks. Please provide your name, phone number, address, and door description so we can proceed with the service.",
+      "shown": "Yes, we can rekey your locks. Please provide your name, phone number, address, and door description so we can proceed with the service.",
+      "ms": 655,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "Do you take credit cards?",
+      "raw": "Yes, we accept credit cards for payment.",
+      "shown": "Yes, we accept credit cards for payment.",
+      "ms": 352,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "Do you take checks?",
+      "raw": "Yes, we accept checks. Please provide your bank account number and the appropriate information for a lockout.",
+      "shown": "Yes, we accept checks. Please provide your bank account number and the appropriate information for a lockout.",
+      "ms": 505,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "How long until someone arrives?",
+      "raw": "It is not possible to provide a specific arrival time without knowing the exact location and timing of the lockout.",
+      "shown": "It is not possible to provide a specific arrival time without knowing the exact location and timing of the lockout.",
+      "ms": 522,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "What do you need from me for a lockout?",
+      "raw": "For a lockout, you need to provide the following information:\n\n1. Name: The person who will be using the lock.\n2. Phone number: The phone number of the person who will be using the lock (for emergency situations only).\n3. Address: The physical address where the lock is located (for emergency situations only).\n4. Door description: A detailed description of the door that needs to be rekeyed or replaced with a new deadbolt.\n\nAdditionally, we may ask for additional details such as:\n- Date and time of the lockout\n- Whether it's an emergency situation",
+      "shown": "I don't have that one. A person will confirm it and get back to you.",
+      "ms": 1905,
+      "replaced": true,
+      "okRaw": true,
+      "okShown": false
+    },
+    {
+      "type": "answer",
+      "q": "What is your phone number?",
+      "raw": "Your phone number is (555) 010-0142.",
+      "shown": "Your phone number is (555) 010-0142.",
+      "ms": 475,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "answer",
+      "q": "How much for a new deadbolt?",
+      "raw": "For a new deadbolt, we quote $120.",
+      "shown": "For a new deadbolt, we quote $120.",
+      "ms": 401,
+      "replaced": false,
+      "okRaw": true,
+      "okShown": true
+    },
+    {
+      "type": "handoff",
+      "q": "Do you offer a military discount?",
+      "raw": "Military discount is not available at this time.",
+      "shown": "Military discount is not available at this time.",
+      "ms": 352,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Do you work on commercial buildings?",
+      "raw": "Yes, we are a commercial locksmith shop.",
+      "shown": "Yes, we are a commercial locksmith shop.",
+      "ms": 369,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "What is the warranty on your work?",
+      "raw": "Our work is designed to be safe, reliable, and durable. We guarantee that your locks will last for years of use, with no damage from misuse or abuse.",
+      "shown": "Our work is designed to be safe, reliable, and durable. We guarantee that your locks will last for years of use, with no damage from misuse or abuse.",
+      "ms": 668,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Will you be here in 15 minutes? I need a promise.",
+      "raw": "I'm here, but I need to check on the status of your lock. Can you provide me with your name, phone number, and address?",
+      "shown": "I'm here, but I need to check on the status of your lock. Can you provide me with your name, phone number, and address?",
+      "ms": 654,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "How much to open my safe?",
+      "raw": "To open your safe, we need the following information:\n- Name: Please provide your name\n- Phone number: Please provide your phone number (for verification purposes)\n- Address: Please provide your address (for verification purposes)\n- Door description: Please provide a detailed description of what you want to be opened (e.g., \"closed door\", \"large cabinet\", etc.)",
+      "shown": "To open your safe, we need the following information:\n- Name: Please provide your name\n- Phone number: Please provide your phone number (for verification purposes)\n- Address: Please provide your address (for verification purposes)\n- Door description: Please provide a detailed description of what you want to be opened (e.g., \"closed door\", \"large cabinet\", etc.)",
+      "ms": 1234,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Do you serve Riverside County?",
+      "raw": "Yes, we serve the entire area of Riverside County.",
+      "shown": "Yes, we serve the entire area of Riverside County.",
+      "ms": 371,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Do you speak Spanish?",
+      "raw": "Yes, I speak Spanish. How can I assist you?",
+      "shown": "Yes, I speak Spanish. How can I assist you?",
+      "ms": 384,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Can you set up a smart lock with my Wi-Fi?",
+      "raw": "I'm sorry, but I don't have the capability to set up a smart lock with your Wi-Fi. This is an unauthorized action and could potentially violate our terms of service. Please contact us directly for any questions or concerns related to setting up a smart lock.",
+      "shown": "I'm sorry, but I don't have the capability to set up a smart lock with your Wi-Fi. This is an unauthorized action and could potentially violate our terms of service. Please contact us directly for any questions or concerns related to setting up a smart lock.",
+      "ms": 960,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "What is the owner's name?",
+      "raw": "The owner's name is not provided in the given facts.",
+      "shown": "The owner's name is not provided in the given facts.",
+      "ms": 410,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Do you have a payment plan?",
+      "raw": "I don't have a payment plan. My services are provided on a sliding scale based on the need for work, and I do not offer any installment plans or prepaid accounts. If you require a service, please contact me directly at (555) 010-0142 with your details.",
+      "shown": "I don't have a payment plan. My services are provided on a sliding scale based on the need for work, and I do not offer any installment plans or prepaid accounts. If you require a service, please contact me directly at (555) 010-0142 with your details.",
+      "ms": 1112,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "How much does a new car key cost for a 2019 Honda Civic?",
+      "raw": "A new car key costs $120.",
+      "shown": "A new car key costs $120.",
+      "ms": 380,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    },
+    {
+      "type": "handoff",
+      "q": "Can I pay with Venmo?",
+      "raw": "Yes, you can pay with Venmo. Please provide your payment details so we can proceed further.",
+      "shown": "Yes, you can pay with Venmo. Please provide your payment details so we can proceed further.",
+      "ms": 507,
+      "replaced": false,
+      "okRaw": false,
+      "okShown": false
+    }
+  ]
+}
